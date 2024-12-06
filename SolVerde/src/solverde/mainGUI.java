@@ -130,15 +130,18 @@ public class mainGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void SolarCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SolarCalcActionPerformed
-        //Adds the function to the Solar calc butto to bring the user to the solar calc page//
+        
         SolarCalcGUI solarCalcPage = new SolarCalcGUI();
         solarCalcPage.setVisible(true);
-        //closes the current page//
+        
         this.dispose();
     }//GEN-LAST:event_SolarCalcActionPerformed
 
     private void InstallGuideActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InstallGuideActionPerformed
-        
+        InstallGuideGUI installGuidePage = new InstallGuideGUI();
+        installGuidePage.setVisible(true);
+
+        this.dispose();
     }//GEN-LAST:event_InstallGuideActionPerformed
 
     private void CostPlannerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CostPlannerActionPerformed

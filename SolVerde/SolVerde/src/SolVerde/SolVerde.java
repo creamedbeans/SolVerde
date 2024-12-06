@@ -14,9 +14,9 @@ public class SolVerde {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        mainGUI MainGUI = new mainGUI();
+       mainGUI MainGUI = new mainGUI();
         MainGUI.setVisible(true);
-// TODO code application logic here
+        
     }
     
 }
